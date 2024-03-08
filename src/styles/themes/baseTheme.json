@@ -1,0 +1,113 @@
+{
+  "token": {
+    "fontFamily": "var(--font-noto)",
+    "colorPrimary": "#000000",
+    "colorText": "#000000",
+    "fontSizeHeading5": 18,
+    "fontSizeHeading4": 20,
+    "fontSizeHeading3": 24,
+    "marginXS": 0,
+    "fontSize": 16,
+    "titleMarginBottom": 0
+  },
+  "components": {
+    "Typography": {
+      "sizeMarginHeadingVerticalStart": 0,
+      "sizeMarginHeadingVerticalEnd": 0,
+      "fontWeightStrong": 700
+    },
+    "Button": {
+      "controlHeight": 60,
+      "colorText": "#000000",
+      "colorBgTextHover": "#FFFFFF",
+      "colorBgTextActive": "#CACACA",
+      "colorPrimary": "#000000",
+      "colorPrimaryActive": "#CACACA",
+      "colorBorder": "#555555",
+      "borderRadius": 30,
+      "fontSize": 20,
+      "controlHeightSM": 36,
+      "fontSizeSM": 16,
+      "borderRadiusSM": 20,
+      "paddingContentHorizontal": 28,
+      "controlOutlineWidth": 0,
+      "colorBgContainerDisabled": "#D5D4D0",
+      "colorTextDisabled": "#FFFFFF"
+    },
+    "Form": {
+      "fontSize": 20,
+      "lineHeight": 1.45,
+      "marginLG": 36
+    },
+    "Input": {
+      "borderRadius": 0,
+      "fontSize": 20,
+      "controlHeight": 60,
+      "colorBorder": "#555555",
+      "colorTextPlaceholder": "#D5D4D0",
+      "lineHeight": 1.5,
+      "colorIcon": "#CCCCCC",
+      "fontSizeIcon": 25,
+      "controlHeightSM": 30,
+      "fontSizeSM": 14,
+      "borderRadiusSM": 2
+    },
+    "Modal": {
+      "borderRadiusLG": 0,
+      "borderRadiusSM": 0,
+      "paddingContentHorizontalLG": 0,
+      "paddingMD": 0,
+      "colorBgMask": "rgba(0, 0, 0, 0.6)"
+    },
+    "Checkbox": {
+      "fontSizeLG": 18,
+      "paddingXS": 12,
+      "fontWeightStrong": 700,
+      "lineWidth": 2,
+      "colorBorder": "#000000",
+      "controlInteractiveSize": 20
+    },
+    "Badge": {
+      "colorError": "#000000"
+    },
+    "Menu": {
+      "colorText": "#FFFFFF",
+      "itemSelectedBg": "unset",
+      "colorBgTextHover": "unset"
+    },
+    "Pagination": {
+      "borderRadius": 0,
+      "borderRadiusLG": 0,
+      "borderRadiusSM": 0,
+      "fontWeightStrong": 400
+    },
+    "Select": {
+      "colorBorder": "#555555",
+      "borderRadiusSM": 18,
+      "fontWeightStrong": 700,
+      "borderRadius": 30,
+      "controlHeightSM": 36,
+      "controlHeight": 60,
+      "paddingSM": 29,
+      "fontSize": 20,
+      "colorPrimaryHover": "none",
+      "controlItemBgActive": "#F5F5F5"
+    },
+    "Dropdown": {
+      "colorText": "#FFFFFF",
+      "fontSize": 22
+    },
+    "Radio": {
+      "colorPrimaryActive": "#1890ff",
+      "colorPrimary": "#1890ff",
+      "colorPrimaryHover": "#1890ff"
+    },
+    "Table": {
+      "borderRadiusLG": 0
+    },
+    "Tabs": {
+      "colorBorderSecondary": "#000000",
+      "colorPrimary": "#000000"
+    }
+  }
+}

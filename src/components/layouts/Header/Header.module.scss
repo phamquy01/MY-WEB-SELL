@@ -1,0 +1,75 @@
+@import "@/styles/colors";
+@import "@/styles/variables";
+
+.root {
+  width: 100%;
+  background-color: $color-white;
+  :global {
+    .header{
+      height: 70px;
+      &__title{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $spacing-5;
+        font-weight: bold;
+        color: #4880FF;
+        &--1{
+          color: #000;
+        }
+      }
+      &__control{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+      &__menu-search{
+        width: 100%;
+        display: flex; align-items: center;
+      }
+      &__menu{
+        margin-right: 10px;
+        
+      }
+      &__search{
+        max-width: 300px;
+        border-radius: 50px;
+        background-color: $color-main-bg-light;
+        &--icon{
+          padding: 5px 5px 5px 2px;
+        }
+      }
+     
+      &__notify-langue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__notify{
+        font-size: $spacing-6;
+        padding: 0 20px 0 20px;
+      }
+      &__langue{
+        padding: 0 20px 0 0;
+        &--input{
+          width: 150px;
+        }
+      }
+     
+      &__user{
+        height: 100%;
+        width: 170px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        &--info{
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
